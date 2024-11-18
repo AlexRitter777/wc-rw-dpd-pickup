@@ -1,0 +1,31 @@
+.wc-rw-dpd-pickup-select-point-link{
+    cursor: pointer;
+    font-size: 80%;
+}
+
+#wc-rw-dpd-pickup-select-point-link-wrapper span{
+    font-size: 80%;
+    font-weight: 400;
+}
+.wc-rw-dpd-pickup-point-info{
+    background: #e9e6ed;
+    padding-left: 5px;
+}
+
+.wc-rw-dpd-pickup-validation-error {
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.wc-rw-dpd-pickup-spinner {
+    position: absolute!important;
+    left: 43%!important;
+    top: 30%!important;
+    z-index: 2000!important;
+}
+
+.wc-rw-dpd-pickup-opacity {
+    position: relative;
+    z-index: 1000;
+    opacity: 0.3;
+}
