@@ -1,0 +1,86 @@
+# Copyright (C) 2024 Alexej Bogačev (RAIN WOOLF s.r.o.)
+# This file is distributed under the same license as the WooCommerce RW DPD Pick Up plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce RW DPD Pick Up 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-rw-dpd-pickup\n"
+"POT-Creation-Date: 2024-11-19T17:25:44+03:00\n"
+"PO-Revision-Date: 2024-11-19 15:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: wc-rw-dpd-pickup\n"
+
+#. Plugin Name of the plugin
+#: wc-rw-dpd-pickup.php
+msgid "WooCommerce RW DPD Pick Up"
+msgstr ""
+
+#. Description of the plugin
+#: wc-rw-dpd-pickup.php
+msgid ""
+"Adds a DPD Pick-Up Points widget to the checkout page, allowing customers to "
+"select a pick-up location. The selected pick-up point information is "
+"dynamically inserted into the checkout page and saved on the server. After "
+"checkout, the pickup point information is available in the Shipping Address "
+"fields of the order."
+msgstr ""
+
+#. Author of the plugin
+#: wc-rw-dpd-pickup.php
+msgid "Alexej Bogačev (RAIN WOOLF s.r.o.)"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-init.php:56
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-init.php:104
+msgid "Select pickup point"
+msgstr "Pasirinkite atsiėmimo punktą"
+
+#: includes/class-wc-rw-dpd-pickup-init.php:150
+msgid "Please select a pickup point before completing your order."
+msgstr "Prašome pasirinkti atsiėmimo punktą prieš užbaigdami užsakymą."
+
+#: includes/class-wc-rw-dpd-pickup-init.php:168
+msgid "Pickup Point: "
+msgstr "Atsiėmimo punktas: "
+
+#: includes/class-wc-rw-dpd-pickup-settings.php:35
+#: includes/class-wc-rw-dpd-pickup-settings.php:43
+msgid "WC RW Dpd Pickup Settings"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-settings.php:36
+#: includes/class-wc-rw-dpd-pickup-settings.php:44
+msgid "DPD Pickup"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-settings.php:63
+msgid "Select shipping method for DPD Widget"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-settings.php:70
+msgid "Allowed shipping methods for DPD widget:"
+msgstr ""
+
+#: includes/class-wc-rw-dpd-pickup-settings.php:86
+msgid "WooCommerce RW DPD PickUp Settings"
+msgstr ""
+
+#: wc-rw-dpd-pickup.php:123
+msgid ""
+"Pickup point save attempt failed. Please try again later or select another "
+"shipping method."
+msgstr ""
+"Nepavyko išsaugoti atsiėmimo punkto. Prašome bandyti vėliau arba pasirinkti "
+"kitą pristatymo būdą."
+
+#: wc-rw-dpd-pickup.php:124
+msgid "Change pickup point"
+msgstr "Pakeisti atsiėmimo punktą"

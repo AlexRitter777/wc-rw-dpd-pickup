@@ -2,8 +2,8 @@
 
 /**
  * Plugin Name: WooCommerce RW DPD Pick Up
- * Description: Adds a DPD Pick-Up Points widget to the checkout page, allowing customers to select a pick-up location. The selected pick-up point information is saved in the order meta and displayed on the order page.
- * Version: 1.0.0
+ * Description: Adds a DPD Pick-Up Points widget to the checkout page, allowing customers to select a pick-up location. The selected pick-up point information is dynamically inserted into the checkout page and saved on the server. After checkout, the pickup point information is available in the Shipping Address fields of the order.
+ * Version: 1.1.0
  * Author: Alexej Bogačev (RAIN WOOLF s.r.o.)
  * Text Domain: wc-rw-dpd-pickup
  * Domain Path: /languages
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class Wc_Rw_Dpd_Pickup{
 
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
 
     /**
      * Wc_Rw_Dpd_Pickup constructor.

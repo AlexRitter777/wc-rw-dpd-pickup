@@ -5,4 +5,8 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
     die;
 }
 
-// No additional actions are needed since the plugin does not store data in the database.
+// Option name to be deleted
+$option_name = 'wc_rw_dpd_pickup_shipping_method';
+
+// Delete the option
+delete_option($option_name);

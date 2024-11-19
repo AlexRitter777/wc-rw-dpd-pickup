@@ -104,7 +104,7 @@ class Wc_Rw_Dpd_Pickup_Settings {
     public function wc_rw_render_settings_field(array $args) : void {
 
         $shipping_methods = $this->data_service->wc_rw_get_shipping_methods();
-        $value = get_option( 'wc_rw_dpd_pickup_shipping_method');
+        $value = get_option( 'wc_rw_dpd_pickup_shipping_method', 'disabled');
 
         echo "<label>";
         echo "<input type='radio' name='wc_rw_dpd_pickup_shipping_method' value='disabled' ". checked($value, 'disabled', false) . ">";
